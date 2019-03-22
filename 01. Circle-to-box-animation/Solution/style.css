@@ -1,0 +1,23 @@
+body{
+    margin: auto;
+}
+@keyframes toCircle{
+    from {background-color: orange;}
+    to{
+        background-color: red; 
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+}
+.square{
+    height: 100px;
+    width: 100px;
+    animation-name: toCircle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    margin: auto;
+    margin-top: 5%;
+}
